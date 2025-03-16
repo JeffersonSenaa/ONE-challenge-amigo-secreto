@@ -26,15 +26,3 @@ Este projeto foi desenvolvido como parte do desafio do curso Oracle Next Educati
    cd amigo-secreto
    ```
 3. Abra o arquivo `index.html` em seu navegador.
-
-## 📷 Demonstração
-
-![Prévia do projeto](link_da_imagem)
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
-
----
-Obrigado ❤️
-

@@ -36,3 +36,18 @@ function atualizarListaAmigos() {
     }
 }
 
+function sortearAmigo() {
+    try {
+        if (nomes.length === 0) {
+            throw new Error("Lista de amigos vazia. Adicione nomes antes de sortear!");
+        }
+
+        let indiceSorteado = Math.floor(Math.random() * nomes.length);
+        let nomeSorteado = nomes[indiceSorteado]; 
+
+        document.getElementById("resultado").innerHTML = 
+            `Amigo sorteado: <strong>${nomeSorteado}</strong>!`;
+    } catch (erro) {
+        alert(erro.message);
+    }
+}
